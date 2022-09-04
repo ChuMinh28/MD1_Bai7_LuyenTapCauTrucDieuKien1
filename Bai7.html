@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//   gia cuoc dien thoai
+// thoi gian goi <= 1 phut : 2000vnd
+// thoi gian goi <= 3 phut : 5000vnd
+// thoi gian goi <= 5 phut : 10000vnd
+// thoi gian goi > 5 phut : 1 phut = 3500vnd
+let t = +prompt('So phut da goi')
+  if(t>5){
+    m = t*3500
+    alert('Tien dien thoai: ' +m)
+  }else if(t<=5){
+    alert('Tien dien thoai: 10000 vnd')
+  }else if(t<=3){
+    alert('Tien dien thoai: 5000 vnd')
+  }else{
+    alert('Tien dien thoai: 3000 vnd')
+  }
+
+
+</script>
+</body>
+</html>
